@@ -25,7 +25,7 @@ def fibonacci_recursivetuple(number: int) -> Tuple[int, ...]:
     # Reference:
     # https://stackoverflow.com/questions/33325683/python-creating-a-list-of-the-first-n-fibonacci-numbers
     # Note that the reference describes the computation for lists and not tuples
-    # TODO: Base case: return [0, 1] when number is either 0 or 1
+    # TODO: Base case: return a tuple containing 0 and 1 when number is either 0 or 1
     # TODO: Recursive case: perform the computation for number - 1 and
     # then "append" to the tuple the two previous computations added together,
     # bearing in mind that the use of += will create a new tuple.
