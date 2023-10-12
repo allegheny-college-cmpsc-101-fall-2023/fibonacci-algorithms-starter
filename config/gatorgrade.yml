@@ -69,7 +69,7 @@ setup: |
     - description: Use the += operator to create a new tuple and add contents to it in fibonacci.py
       check: MatchFileFragment
       options:
-        fragment: append(
+        fragment: +=
         count: 1
         exact: false
     - description: Create a sufficient number of docstring (i.e., multiple-line) comments in fibonacci.py
