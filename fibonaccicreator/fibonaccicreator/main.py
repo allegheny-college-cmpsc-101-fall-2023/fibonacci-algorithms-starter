@@ -114,6 +114,8 @@ def fibonaccicreator(
     # the correct output value for Linux. However, you may need to
     # adjust the value of 1024 to be larger or smaller, depending on
     # your operating system and the way in which it reports memory use.
+    # https://pythonspeed.com/articles/estimating-memory-usage/
+    # https://stackoverflow.com/questions/12050913/whats-the-unit-of-ru-maxrss-on-linux
     console.print("   " + format_bytes(getrusage(RUSAGE_SELF).ru_maxrss * 1024))
     console.print()
     # display a simplified execution time
