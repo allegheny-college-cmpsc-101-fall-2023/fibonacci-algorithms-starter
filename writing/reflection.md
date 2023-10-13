@@ -121,3 +121,9 @@ TODO: Provide a one-paragraph response that answers this question in your own wo
 ### What resources did you consult when completing this project? How did you find them? How did they help you?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
+
+TODO: Please write the commands you used for fixing errors reported by black
+and isort.
+
+Last TODO: Please copy lines 204-206 in the gatorgrade.yml file and explain why
+this command is not run with the recursive functions.
