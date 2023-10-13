@@ -18,22 +18,16 @@ system does not support certain packages or it yields unexpected results.
 
 ## Program Output
 
-### Use eight fenced code blocks to provide output from eight different runs of `fibonaccicreator` with different inputs
+### Eight different runs of `fibonaccicreator` for comparison experiment
 
-TODO: Provide the output for running `iterativetuple` with a large and small input
-TODO: Use a fenced code block to provide the requested output
+TODO: Use eight fenced code blocks to provide the outputs under the headings
+below.
 
-TODO: Provide the output for running `iterativelist` with a large and small input
-TODO: Use a fenced code block to provide the requested output
+TODO: Read these next TODOs to understand how to run your experiment.
 
-TODO: Provide the output for running `recursivetuple` with a large and small input
-TODO: Use a fenced code block to provide the requested output
-
-TODO: Provide the output for running `recursivelist` with a large and small input
-TODO: Use a fenced code block to provide the requested output
-
-TODO: If an algorithm does not work correctly and you can explain why it does not
-work, then please provide that output in one of the above fenced code blocks
+TODO: If an algorithm does not work correctly and you can explain why it does
+not work, then please provide that output in one of the fenced code blocks
+under the correct heading below.
 
 TODO: Whenever possible, please use the same "small" and "large" inputs for both
 the List-based and Tuple-based algorithms.
@@ -51,26 +45,30 @@ TODO: You can place all of the fenced code blocks in the following sections.
 
 #### Two outputs from running the `iterativetuple`
 
-TODO: Provide a fenced code block with the requested outputs
+TODO: Provide the output for running `iterativetuple` with a large and small input
+TODO: Use fenced code blocks to provide the requested outputs
 
 #### Two outputs from running the `iterativelist`
 
-TODO: Provide a fenced code block with the requested outputs
+TODO: Provide the output for running `iterativelist` with a large and small input
+TODO: Use fenced code blocks to provide the requested outputs
 
 #### Two outputs from running the `recursivetuple`
 
-TODO: Provide a fenced code block with the requested outputs
+TODO: Provide the output for running `recursivetuple` with a large and small input
+TODO: Use fenced code blocks to provide the requested outputs
 
 #### Two outputs from running the `recursivelist`
 
-TODO: Provide a fenced code block with the requested outputs
+TODO: Provide the output for running `recursivelist` with a large and small input
+TODO: Use fenced code blocks to provide the requested output
 
 ## Performance Analysis
 
 TODO: Provide five paragraphs that explain which algorithm is fastest, by how
 much it is faster, and how you knew that it was faster, referencing the data
-in the aforementioned command outputs to support your response. You should make
-sure that you answer the following research questions:
+in the previously recorded outputs to support your response. You should make
+sure that you answer the following research questions (RQs):
 
 - RQ: Is `fibonaccicreator` faster with a list or a tuple?
 - RQ: Is `fibonaccicreator` faster with recursion or iteration?
@@ -108,7 +106,7 @@ TODO: Explain exactly how Python can call a function using a string
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 
-### Leveraging your response to the previous question, how did you overcome the challenge?
+### How have your challenges or skills changed from assignment to assignment?
 
 TODO: Provide a one-paragraph response that answers this question in your own words.
 

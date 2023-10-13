@@ -46,6 +46,8 @@ def format_bytes(size_of_memory_used) -> str:
     # https://stackoverflow.com/questions/12523586/python-format-size-application-converting-b-to-kb-mb-gb-tb/37423778
     power = 2 ** 10
     n = 0
+    # power_labels = {0: "", 1: "", 2: "kilo", 3: "mega", 4: "giga"}
+    # power_labels = {0: "kilo", 1: "mega", 2: "giga", 3: "tera", 4: "peta"}
     power_labels = {0: "", 1: "kilo", 2: "mega", 3: "giga", 4: "tera"}
     while size_of_memory_used > power:
         size_of_memory_used /= power
