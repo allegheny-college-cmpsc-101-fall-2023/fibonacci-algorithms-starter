@@ -120,7 +120,7 @@ def fibonaccicreator(
     # Reference:
     # https://stackoverflow.com/questions/1557571/how-do-i-get-time-of-a-python-programs-execution
     console.print("Estimated execution time according to the simple timer:")
-    console.print(f"    {(end - start):.2f} seconds")
+    console.print(f"    {(end - start):.5f} seconds")
     # display the execution time recorded by the pyinstrument package
     # Reference:
     # https://pyinstrument.readthedocs.io/en/latest/guide.html#profile-a-specific-chunk-of-code
