@@ -1,13 +1,13 @@
 """Perform an experiment to study efficiency of Fibonacci algorithms."""
 
-from pyinstrument import Profiler  # type: ignore
+from pyinstrument import Profiler
 
 import typer
 
 from rich.console import Console
 
 import os
-import psutil  # type: ignore
+import psutil
 import time
 
 # TODO: Note that certain versions of Windows may not be able to
