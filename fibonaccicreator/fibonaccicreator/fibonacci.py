@@ -7,7 +7,7 @@
 
 # TODO: Refer to your results from running experiments as part of a
 # previous engineering effort to develop working hypotheses about the
-# performance characteristics of these functions
+# performance characteristics of these functions.
 
 # TODO: Read about implementing functions to generate the fibonacci sequence
 # https://realpython.com/fibonacci-sequence-python/
@@ -39,11 +39,14 @@ def fibonacci_iterativetuple(number: int) -> Tuple[int, ...]:
     # TODO: create an empty tuple that will ultimately contain the results
     # TODO: set the initial conditions of the sequence
     # Note: start at 0 and 1, not at 1 and 1
-    # TODO: iterate from zero to the (number)th number
-    # --> TODO: store the value of a in the tuple
+    # TODO: iterate from zero to the (number)th number (how many is that?)
+    # --> TODO: store the value of a (two back) in the tuple
     # --> TODO: move to the next value such that:
-    # --> TODO: a gets the current value of b
-    # --> TODO: b gets the current value of a + b
+    # --> TODO: a (two back) gets the current value of b (one_back)
+    # --> TODO: b (one_back) gets the current value of a + b (next val)
+    #     TODO: Hint: you could first code this by making an explicit next val
+    #     variable where you need it. Then re-write the code using pythonic
+    #     expressions.
     # TODO: return the final tuple that contains the fibonacci numbers
 
 
@@ -54,8 +57,11 @@ def fibonacci_iterativelist(number: int) -> List[int]:
     # Note: start at 0 and 1, not at 1 and 1
     # TODO: set the initial conditions of the sequence
     # TODO: iterate from zero to the (number)th number
-    # --> TODO: store the value of a in the list
+    # --> TODO: store the value of a (two back) in the list
     # --> TODO: move to the next value such that:
-    # --> TODO: a gets the current value of b
-    # --> TODO: b gets the current value of a + b
-    # TODO: return the final tuple that contains the fibonacci numbers
+    # --> TODO: a (two back) gets the current value of b (one back)
+    # --> TODO: b (one back) gets the current value of a + b (next val)
+    #     TODO: Hint: you could first code this by making an explicit next val
+    #     variable where you need it. Then re-write the code using pythonic
+    #     expressions.
+    # TODO: return the final list that contains the fibonacci numbers
