@@ -40,17 +40,17 @@ profiler = Profiler()
 # and using many GB of memory would probably be too much!
 
 
-def format_bytes(size):
-    """Format an output value in bytes in a human-readable fashion."""
+def format_bytes(size_of_memory_used) -> str:
+    """Formats the size_of_memory_used into a string representing the value in bytes in a human-readable fashion."""
     # Reference:
     # https://stackoverflow.com/questions/12523586/python-format-size-application-converting-b-to-kb-mb-gb-tb/37423778
     power = 2 ** 10
     n = 0
     power_labels = {0: "", 1: "kilo", 2: "mega", 3: "giga", 4: "tera"}
-    while size > power:
-        size /= power
+    while size_of_memory_used > power:
+        size_of_memory_used /= power
         n += 1
-    return str(size) + " " + power_labels[n] + "bytes"
+    return str(size_of_memory_used) + " " + power_labels[n] + "bytes"
 
 
 @cli.command()
